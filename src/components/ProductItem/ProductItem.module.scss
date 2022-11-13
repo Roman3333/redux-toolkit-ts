@@ -1,0 +1,45 @@
+.product {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: 2px dashed gray;
+  width: 250px;
+  height: 300px;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__price {
+    text-align: center;
+  }
+
+  &__photo {
+    width: 220px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+  }
+
+  &__photos {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__photoItem {
+    width: 50px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    &.active {
+      border: 1px solid red;
+    }
+  }
+
+  &__buy {
+    border: 1px solid black;
+    margin: 7px auto 0;
+    display: block;
+  }
+}

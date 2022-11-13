@@ -1,0 +1,9 @@
+.footer {
+  height: 50px;
+  margin-top: 10px;
+  background-color: aquamarine;
+  text-align: center;
+  &__inner {
+    font-size: 20px;
+  }
+}

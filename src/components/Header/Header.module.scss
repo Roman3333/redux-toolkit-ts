@@ -1,0 +1,20 @@
+.header {
+  background-color: darkred;
+  margin-bottom: 20px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-size: 22px;
+  }
+
+  &__basket {
+    cursor: pointer;
+  }
+
+  &__count {
+    color: antiquewhite;
+  }
+}
